@@ -1,0 +1,42 @@
+/* styles.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wheel-container {
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.balance {
+  margin-bottom: 20px;
+}
+
+.balance input {
+  margin-right: 10px;
+}
+
+.win {
+  color: blue;
+}
+
+.loss {
+  color: red;
+}
+
+.close-button {
+  margin-top: 20px;
+}
